@@ -16,7 +16,8 @@ public class Main {
             int soma = valorA + valorB;
             System.out.println("Valores somados: " + soma);
         } else {
-            System.out.printf("Os valores %s, %s não são iguais", valorA, valorB);
+            int c = valorA * valorB;
+            System.out.println("O valor multiplicado é:" + c);
         }
         scan.close();
     }
